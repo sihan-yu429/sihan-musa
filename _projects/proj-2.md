@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project Two'
+title: 'Philadelphia Housing Prediction'
 thumbnail: /assets/img/projects/proj-2/thumbnail.jpg
 ---
 

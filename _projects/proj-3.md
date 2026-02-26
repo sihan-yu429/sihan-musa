@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project Three'
+title: 'Pittsburgh Landslide Susceptibility'
 thumbnail: /assets/img/projects/proj-3/thumbnail.jpg
 ---
 
