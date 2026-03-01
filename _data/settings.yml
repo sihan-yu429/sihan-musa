@@ -7,6 +7,7 @@ logo: '/assets/img/musa-logo.png'
 # A brief introduction or mission statement that appears at the top of the
 # portfolio home page, above the project list. If you don't want one of the
 # intro_title or intro_text to show up, just set the appropriate value to null.
+intro_headshot: '/assets/img/headshot.jpg'
 intro_title: Geospatial & Data Analyst
 intro_text: |
   I build spatial and data-driven tools for urban planning, environmental risk, and infrastructure decision-making.

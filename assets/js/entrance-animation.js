@@ -2,8 +2,8 @@
 // Only runs on homepage and only on first visit per session
 
 (function() {
-  const isHomepage = window.location.pathname === '/' || window.location.pathname === '/index.html';
-  const hasSeenAnimation = sessionStorage.getItem('hasSeenEntranceAnimation');
+  const isHomepage = window.location.pathname === '/' || window.location.pathname === '/index.html' || window.location.pathname.endsWith('/');
+  const hasSeenAnimation = false; // Temporarily disabled - set to sessionStorage.getItem('hasSeenEntranceAnimation') to enable once-per-session
 
   if (!isHomepage || hasSeenAnimation) {
     // Skip animation - remove entrance elements and show content immediately
