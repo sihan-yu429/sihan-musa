@@ -3,11 +3,20 @@ layout: post
 title: 'Philadelphia Housing Prediction'
 thumbnail: /assets/img/projects/proj-2/thumbnail.jpg
 ---
+## Overview
+Built and validated a Philadelphia housing price prediction pipeline using structural attributes, ACS neighborhood context, and engineered spatial accessibility features.
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed ultrices tortor nec nunc hendrerit rutrum. Nullam congue nulla eu placerat convallis. Morbi volutpat dolor nunc, nec dignissim neque condimentum nec. Nullam vel sem egestas augue tempus pulvinar in vitae neque. Ut mattis tincidunt felis, laoreet aliquet ex mollis ac. Sed sit amet nisl id enim blandit facilisis. Maecenas quis ultrices sapien, ac ullamcorper mi.
+## What I did
+- Cleaned **583,776** OPA property records and filtered to **25,585** sales records, then spatially joined tract-level ACS variables.
+- Estimated and compared **4** linear model specifications; evaluated with **10-fold cross-validation**.
+- Interpreted drivers (standardized coefficients) and ran diagnostics (residuals, QQ plot, Cook’s distance) to assess bias/outliers and limitations.
 
-<div style="text-align: center; margin: 2rem 0;">
-  <a href="#" class="button">View Full Appendix</a>
-</div>
+## Results
+Best-performing model achieved **R² ≈ 0.612**, **MAE ≈ $81,139**, **RMSE ≈ $129,019**.
 
-{% include image.html url="http://www.gratisography.com" image="projects/proj-2/stretch.jpg" %}
+## Tools
+R · regression modeling · feature engineering (buffers/KNN) · cross-validation · model diagnostics · interpretability
+
+<a class="btn" href="https://musa-5080-fall-2025.github.io/portfolio-setup-sihan-yu429/assignments/midterm/Yu_Sihan_Appendix.html" target="_blank" rel="noopener">
+  View Full Appendix
+</a>
