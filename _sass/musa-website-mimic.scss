@@ -6,8 +6,8 @@
   --col-spacing: var(--spacing);
   --col-width: calc((100% - (var(--col-count) - 1) * var(--col-spacing)) / var(--col-count));
 
-  --color-accent: #81D4FA;
-  --color-secondary: #b3e5fc;
+  --color-accent: #29B6F6;
+  --color-secondary: #4FC3F7;
   --color-text: #616161;
   --color-highlight: #f7f3e8;
 
@@ -15,7 +15,7 @@
   --header-z-index: 10;
 
   font-family: 'Spectral', serif;
-  font-weight: 200;
+  font-weight: 400;
   padding: 0;
   margin: 0;
 }
@@ -56,7 +56,7 @@ footer {
   color: white;
 
   .social-media-label {
-    font-weight: 200;
+    font-weight: 400;
     font-size: 0.8rem;
     margin-bottom: 0.5rem;
     letter-spacing: initial;
@@ -77,7 +77,7 @@ footer {
 // This h1 represents the page title
 h1 {
   font-size: 4rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 // There may be other h1 elements in the main content, so we need to
@@ -94,7 +94,7 @@ h2 {
   justify-content: flex-start;
   align-items: center;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   margin-top: 2rem;
@@ -128,7 +128,7 @@ h2::after {
   text-decoration: none;
   color: white;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
   border-radius: 4px;
@@ -256,7 +256,7 @@ h2::after {
     display: block;
     margin-bottom: calc(var(--spacing) * 2);
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     color: white;
     transition: color 0.2s ease-in-out;
@@ -280,6 +280,91 @@ h2::after {
 .resume-button-wrapper {
   margin-top: calc(var(--spacing) * 2);
   text-align: center;
+}
+
+/* Entrance Animation */
+
+.entrance-name {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  font-size: 4rem;
+  font-weight: 400;
+  color: var(--color-text);
+  opacity: 0;
+  animation: fadeInName 1s ease-in-out forwards;
+  pointer-events: none;
+}
+
+.entrance-name.move-up {
+  animation: moveNameUp 1s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+
+.entrance-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-highlight);
+  z-index: 999;
+  opacity: 1;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.entrance-overlay.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.site-container.entrance-mode {
+  opacity: 0;
+}
+
+.site-container.entrance-complete {
+  animation: fadeInContent 0.8s ease-in-out forwards;
+  animation-delay: 2.3s;
+}
+
+@keyframes fadeInName {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+@keyframes moveNameUp {
+  0% {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    font-size: 4rem;
+  }
+  100% {
+    top: calc(var(--header-size) / 2);
+    left: var(--spacing);
+    transform: translate(0, -50%) scale(0.5);
+    font-size: 2rem;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /* About page */
