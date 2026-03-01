@@ -277,9 +277,14 @@ h2::after {
 
 /* Home page intro/mission */
 
+.intro-container {
+  padding-top: calc(var(--spacing) * 2);
+}
+
 .intro-headshot-wrapper {
   text-align: center;
   margin-bottom: calc(var(--spacing) * 2);
+  margin-top: calc(var(--spacing) * 2);
 }
 
 .intro-headshot {
@@ -333,11 +338,12 @@ h2::after {
   z-index: 999;
   opacity: 1;
   transition: opacity 0.8s ease-in-out;
+  pointer-events: none;
 }
 
 .entrance-overlay.fade-out {
   opacity: 0;
-  pointer-events: none;
+  visibility: hidden;
 }
 
 .site-container.entrance-mode {
