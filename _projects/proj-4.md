@@ -8,7 +8,7 @@ thumbnail: /assets/img/projects/proj-4/thumbnail.jpg
 Built a **2D unsteady-flow HEC-RAS** model for the Mandalay–Amarapura reach of the Irrawaddy River to quantify inundation patterns across **5/10/20/50/100-year** return periods and evaluate how the **Amarapura Urban Development Project** (terrain modification/riverbank elevation) may redistribute flood risk and **increase flow velocity**. Land-use exposure was interpreted using a **Sentinel-2 supervised classification**.
 
 <div style="text-align: center; margin: 1.5rem 0;">
-  <a href="/assets/files/Dissertation_finalll.pdf" class="button" target="_blank" rel="noopener">View Full Dissertation (PDF)</a>
+  <a href="{{ '/assets/files/Dissertation_finalll.pdf' | relative_url }}" class="button" target="_blank" rel="noopener">View Full Dissertation (PDF)</a>
 </div>
 
 ---
@@ -85,5 +85,5 @@ Log-Pearson Type III peak discharges (m³/s):
 ---
 
 <div style="text-align: center; margin: 2rem 0;">
-  <a href="/assets/files/Dissertation_finalll.pdf" class="button" target="_blank" rel="noopener">Read the Full Dissertation</a>
+  <a href="{{ '/assets/files/Dissertation_finalll.pdf' | relative_url }}" class="button" target="_blank" rel="noopener">Read the Full Dissertation</a>
 </div>
