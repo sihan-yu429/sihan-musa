@@ -2,6 +2,7 @@
 layout: post
 title: 'Project Five'
 thumbnail: /assets/img/projects/proj-5/thumbnail.jpg
+published: false
 ---
 
 ## Overview
