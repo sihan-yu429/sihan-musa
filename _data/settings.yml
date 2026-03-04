@@ -34,8 +34,8 @@ menu:
 social_label: Connect
 social:
 - {icon: 'github',    link: 'https://github.com/sihan-yu429'}
-- {icon: 'linkedin',  link: 'https://www.linkedin.com/in/sihan-yu-95a19b268/'}
-- {icon: 'envelope',  link: 'mailto:sihanyu2024@gmail.com'}
+- {icon: 'linkedin',  link: 'https://linkedin.com/in/sihan-yu429'}
+- {icon: 'envelope',  link: 'mailto:yusihan@upenn.edu'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 

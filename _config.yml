@@ -5,6 +5,10 @@ markdown:  kramdown
 permalink: /:title
 plugins:   [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
+# GitHub Pages settings
+url: "https://sihan-yu429.github.io"
+baseurl: "/sihan-musa"
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 
 title:		   "Portfolio Jekyll Theme"

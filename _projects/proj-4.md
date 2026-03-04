@@ -54,31 +54,29 @@ Log-Pearson Type III peak discharges (m³/s):
 
 ## Key figures (quick gallery)
 
-{% assign img_path = "/assets/img/projects/proj-4" %}
-
 <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px; margin-top: 1rem;">
 
-  <a href="{{ img_path }}/fig_model_domain.png" target="_blank" rel="noopener"
+  <a href="{{ '/assets/img/projects/proj-4/fig_model_domain.png' | relative_url }}" target="_blank" rel="noopener"
      style="text-decoration:none; color:inherit; border:1px solid #eee; border-radius:12px; overflow:hidden;">
-    <img src="{{ img_path }}/fig_model_domain.png" alt="Model domain" style="width:100%; display:block;">
+    <img src="{{ '/assets/img/projects/proj-4/fig_model_domain.png' | relative_url }}" alt="Model domain" style="width:100%; display:block;">
     <div style="padding:10px 12px; font-size:0.95rem; opacity:0.85;">Model domain and study area (Mandalay–Amarapura)</div>
   </a>
 
-  <a href="{{ img_path }}/fig_return_period_extent_5yr_vs_100yr.png" target="_blank" rel="noopener"
+  <a href="{{ '/assets/img/projects/proj-4/fig_return_period_extent_5yr_vs_100yr.png' | relative_url }}" target="_blank" rel="noopener"
      style="text-decoration:none; color:inherit; border:1px solid #eee; border-radius:12px; overflow:hidden;">
-    <img src="{{ img_path }}/fig_return_period_extent_5yr_vs_100yr.png" alt="Return period comparison" style="width:100%; display:block;">
+    <img src="{{ '/assets/img/projects/proj-4/fig_return_period_extent_5yr_vs_100yr.png' | relative_url }}" alt="Return period comparison" style="width:100%; display:block;">
     <div style="padding:10px 12px; font-size:0.95rem; opacity:0.85;">Flood extent comparison: 5-year vs 100-year</div>
   </a>
 
-  <a href="{{ img_path }}/fig_megaproject_before_after_inundation.png" target="_blank" rel="noopener"
+  <a href="{{ '/assets/img/projects/proj-4/fig_megaproject_before_after_inundation.png' | relative_url }}" target="_blank" rel="noopener"
      style="text-decoration:none; color:inherit; border:1px solid #eee; border-radius:12px; overflow:hidden;">
-    <img src="{{ img_path }}/fig_megaproject_before_after_inundation.png" alt="Megaproject before/after inundation" style="width:100%; display:block;">
+    <img src="{{ '/assets/img/projects/proj-4/fig_megaproject_before_after_inundation.png' | relative_url }}" alt="Megaproject before/after inundation" style="width:100%; display:block;">
     <div style="padding:10px 12px; font-size:0.95rem; opacity:0.85;">Megaproject scenario: inundation before vs after</div>
   </a>
 
-  <a href="{{ img_path }}/fig_megaproject_velocity_20yr.png" target="_blank" rel="noopener"
+  <a href="{{ '/assets/img/projects/proj-4/fig_megaproject_velocity_20yr.png' | relative_url }}" target="_blank" rel="noopener"
      style="text-decoration:none; color:inherit; border:1px solid #eee; border-radius:12px; overflow:hidden;">
-    <img src="{{ img_path }}/fig_megaproject_velocity_20yr.png" alt="Megaproject velocity (20-year)" style="width:100%; display:block;">
+    <img src="{{ '/assets/img/projects/proj-4/fig_megaproject_velocity_20yr.png' | relative_url }}" alt="Megaproject velocity (20-year)" style="width:100%; display:block;">
     <div style="padding:10px 12px; font-size:0.95rem; opacity:0.85;">Peak velocity under megaproject scenario (20-year event)</div>
   </a>
 
