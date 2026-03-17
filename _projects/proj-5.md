@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Project Five'
+title: 'map gallery'
 thumbnail: /assets/img/projects/proj-5/thumbnail.jpg
 published: false
 ---
